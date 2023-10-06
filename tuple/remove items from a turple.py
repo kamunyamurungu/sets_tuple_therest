@@ -1,0 +1,9 @@
+tuplex = "w", 3, "r", "s", "o", "u", "r", "c", "e"
+print(tuplex)
+create new tuple
+tuplex = tuplex[:2] + tuplex[3:]
+print(tuplex)
+listx = list(tuplex) 
+listx.remove("c") 
+tuplex = tuple(listx)
+print(tuplex)
